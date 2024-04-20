@@ -82,7 +82,7 @@
 
       <!-- //////////////// -->
 
-        <h1>Employee Management System</h1>
+        <!-- <h1>Employee Management System</h1>
         <div>
             <button onclick="displayEmployees()">Display Employees</button>
             <button onclick="calculateTotalSalaries()">Calculate Total Salaries</button>
@@ -91,9 +91,27 @@
         </div>
         
         <div id="employeesDetails"></div>
-        <script src="./employee_details.js"></script>
+        <script src="./employee_details.js"></script> -->
 
 
+        <!-- ////////////// -->
 
+        <h1>Book Management System</h1>
+        <label for="bookName">Book Name:</label><br>
+        <input type="text" id="bookName"><br><br>
+        <label for="authorName">Author Name:</label><br>
+        <textarea id="authorName" rows="4"></textarea><br><br>
+        <label for="bookDescription">Book Description</label><br>
+        <textarea id="bookDescription" rows="4"></textarea><br><br>
+        <label for="pagesNumber">No. of Pages Time</label><br>
+        <input type="number" id="pagesNumber"><br><br>
+        <button onclick="addBook()">Add Book</button>
+        <h2>books</h2>
+        <div id="books">
+            <!-- books will be displayed here -->
+        </div>
+        <script src="./book_system.js"></script>
+
+        
     </body>
 </html>    
